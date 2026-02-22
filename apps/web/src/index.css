@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-fk-light-gray text-fk-text antialiased;
+    font-family: Roboto, Arial, sans-serif;
+  }
+}
