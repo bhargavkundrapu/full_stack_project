@@ -6,7 +6,7 @@ Production-ready Flipkart clone monorepo containing a React frontend and an Expr
 
 - `apps/web`: Vite + React + Tailwind CSS frontend
 - `apps/api`: Node.js + Express + Prisma backend
-- `packages/shared`: Shared Zod schemas and TypeScript types
+
 
 ## Getting Started
 
