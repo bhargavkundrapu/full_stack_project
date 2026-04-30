@@ -7,12 +7,13 @@
         "packages/*"
     ],
     "scripts": {
-        "dev": "npm run dev --workspaces --if-present",
+        "dev": "concurrently \"npm run dev -w @flipkart-clone/api\" \"npm run dev -w @flipkart-clone/web\"",
         "build": "npm run build --workspaces --if-present",
         "lint": "npm run lint --workspaces --if-present",
         "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\""
     },
     "devDependencies": {
+        "concurrently": "^9.2.1",
         "prettier": "^3.2.5"
     }
 }
