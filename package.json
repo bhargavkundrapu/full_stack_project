@@ -8,7 +8,7 @@
     ],
     "scripts": {
         "dev": "concurrently \"npm run dev -w @flipkart-clone/api\" \"npm run dev -w @flipkart-clone/web\"",
-        "build": "npm run build --workspaces --if-present",
+        "build": "npm run build -w @flipkart-clone/shared && npm run build -w @flipkart-clone/api && npm run build -w @flipkart-clone/web",
         "lint": "npm run lint --workspaces --if-present",
         "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\""
     },
