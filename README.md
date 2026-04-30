@@ -35,5 +35,5 @@ Production-ready Flipkart clone monorepo containing a React frontend and an Expr
 ## Tech Stack
 - Frontend: React, Vite, Tailwind CSS, TypeScript
 - Backend: Node.js, Express, Prisma, PostgreSQL (Neon)
-- Validation: Zod
+
 - Auth: JWT (Access & Refresh tokens)
